@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <!--
+
+    Dentro do arquivo XML só podemos escrever no formato de tags
+    <tag
+        android:id="@+id/{idDesejado}"
+        android:layout_width="match_parent"
+        android:layout_height="320dp"
+        outros_attributos="valor"
+    ></tag>
+        ou
+    <tag
+        android:id="@+id/{idDesejado}"
+        android:layout_width="match_parent"
+        android:layout_height="320dp"
+        outros_attributos="valor"
+    />
+
+    Algumas tags ou views podem ter outras tags dentro dele, portanto
+    é preciso utilizar o primeiro formato. Ex. LinearLayout
+
+    -->
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:orientation="horizontal">
+        
+        <Button
+            android:id="@+id/botaoMaca"
+            android:layout_width="wrap_content"
+            android:layout_height="120dp"
+            android:background="#ff0000"
+            android:text="MAÇÃ"/>
+
+        <Button
+            android:id="@+id/botaoBanana"
+            android:layout_width="wrap_content"
+            android:layout_height="120dp"
+            android:background="#ffff00"
+            android:text="Banana"/>
+
+        <Button
+            android:id="@+id/botaoPao"
+            android:layout_width="wrap_content"
+            android:layout_height="120dp"
+            android:background="#ffff00"
+            android:text="Pão"/>
+
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/botaoMudarNome"
+        android:layout_width="match_parent"
+        android:layout_height="54dp"
+        android:text="Mudar seu nome?"/>
+
+    <TextView
+        android:id="@+id/textoClicou"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Guilherme comeu ate agora: "/>
+
+</LinearLayout>

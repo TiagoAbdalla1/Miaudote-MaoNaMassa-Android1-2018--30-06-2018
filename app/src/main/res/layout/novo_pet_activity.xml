@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:scaleType="centerCrop"
+            android:src="@drawable/dog" />
+
+
+
+
+    </FrameLayout>
+
+    <LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+
+    <Button
+        android:id="@+id/adc_img_Button"
+        android:layout_width="wrap_content"
+        android:layout_height="80dp"
+        android:textColor="#FFFFFF"
+        android:layout_marginVertical="5dp"
+        android:layout_marginHorizontal="65dp"
+        android:textAllCaps="false"
+        android:textSize="2.5mm"
+        android:background="@drawable/rounded_corner_btn_circle"
+        />
+    <Button
+        android:id="@+id/adc_img_Button2"
+        android:layout_width="wrap_content"
+        android:layout_height="80dp"
+        android:layout_marginVertical="7dp"
+        android:textColor="#FFFFFF"
+        android:textAllCaps="false"
+        android:textSize="2.5mm"
+        android:background="@drawable/rounded_corner_btn_circle"
+        />
+
+
+</LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:layout_marginEnd="16dp"
+        android:layout_marginStart="76dp"
+        android:orientation="vertical">
+
+
+        <EditText
+            android:id="@+id/nomePetEditText"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/rounded_corner_box_white"
+            android:hint=" Nome" />
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="5dp"></LinearLayout>
+
+
+        <EditText
+            android:id="@+id/porteEditText"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:background="@drawable/rounded_corner_box_white"
+            android:hint=" Porte"
+            />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="5dp"></LinearLayout>
+        <EditText
+            android:id="@+id/racaEditText"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:background="@drawable/rounded_corner_box_white"
+            android:hint=" Raça"
+            />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="5dp"></LinearLayout> <EditText
+        android:id="@+id/idadeEditText"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@drawable/rounded_corner_box_white"
+        android:hint=" Idade"
+        />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="5dp"></LinearLayout> <EditText
+        android:id="@+id/especieEditText"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@drawable/rounded_corner_box_white"
+        android:hint=" Espécie"
+        />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="5dp"></LinearLayout>
+
+        <Button
+            android:id="@+id/confirmarButton"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:textColor="#FFFFFF"
+            android:textAllCaps="false"
+            android:textSize="2.5mm"
+            android:background="@drawable/rounded_corner_btn_white_blue"
+            android:text="Confirmar" />
+
+    </LinearLayout>
+
+
+</RelativeLayout>
